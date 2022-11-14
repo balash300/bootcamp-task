@@ -5,7 +5,7 @@ class Message {
         this.text = text
     }
     showText() {
-        `${this.time}  ${this.name} : ${this.text}`
+        console.log(`${this.time}  ${this.name} : ${this.text}`)
     }
 }
 
